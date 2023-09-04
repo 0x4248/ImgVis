@@ -1,0 +1,9 @@
+# ImgVis
+# Visualize images with graphs
+# Github: https://www.github.com/lewisevans2007/ImgVis
+# Licence: GNU General Public License v3.0
+# By: Lewis Evans
+
+matplotlib==3.7.2
+numpy==1.25.2
+Pillow==10.0.0
