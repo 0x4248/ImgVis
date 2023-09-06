@@ -3,6 +3,11 @@
 # Github: https://www.github.com/lewisevans2007/ImgVis
 # Licence: GNU General Public License v3.0
 # By: Lewis Evans
+#
+# This demo file tests the ImgVis module and shows how to use it
+# This file is not required for the module to work
+
+
 
 import ImgVis
 
