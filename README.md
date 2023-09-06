@@ -5,7 +5,7 @@ Visualize images with graphs
 ## 3D Functions
 
 Each function has the following parameters:
-- image (str): The path to the image
+- image (str): The path to the image.
 - compression (int): The compression of the image. This is the times that the image is compressed. The higher the compression, the faster the function will run, but the less accurate the graph will be. The default value is 0 which means that the image will not be compressed.
 
 ### Colour 3D
