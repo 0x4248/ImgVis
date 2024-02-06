@@ -2,6 +2,11 @@
 
 Visualize images with graphs
 
+## Requiered packages
+- Matplotlib - `pip install matplotlib`
+- Pillow - `pip install pillow`
+- Numpy - `pip install numpy`
+
 ## 3D Functions
 
 Each function has the following parameters:
