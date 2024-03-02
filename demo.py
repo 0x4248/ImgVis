@@ -9,7 +9,7 @@
 
 import ImgVis
 
-demo_file = "test_img.jpeg"
+demo_file = "img.jpg"
 
 # 3D graphs
 ImgVis.colour_3d(demo_file, compression=50)
@@ -17,6 +17,7 @@ ImgVis.brightness_3d(demo_file, compression=50)
 ImgVis.red_3d(demo_file, compression=50)
 ImgVis.green_3d(demo_file, compression=50)
 ImgVis.blue_3d(demo_file, compression=50)
+ImgVis.combined_3d(demo_file, compression=50)
 
 # 2D graphs
 ImgVis.red_line_2d(demo_file)

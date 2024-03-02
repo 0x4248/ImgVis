@@ -345,6 +345,53 @@ def blue_3d(image, compression=0):
     # Show the plot
     plt.show()
 
+def combined_3d(image,compression=0):
+    """Plots a 3D graph of the red green and blue values in the image in one 3D graph
+
+    Args:
+        image (string): The path to the image
+        compression (int, optional): Compresses the image by this amount. Defaults to 0.
+    """
+
+    image = Image.open(image)
+    
+    # Image compression
+    if compression != 0:
+        image = image.resize((image.size[0]//compression,image.size[1]//compression))
+    
+    # Convert image data to a NumPy array and normalize the values to [0, 1]
+    
+    image_array = np.array(image) / 255.0
+    # Extract RGB values from the normalized image array
+    red_values = image_array[:, :, 0].flatten()
+    green_values = image_array[:, :, 1].flatten()
+    blue_values = image_array[:, :, 2].flatten()
+    # Get the dimensions of the image
+    height, width = image_array.shape[0],image_array.shape[1]
+    # Create arrays for X, Y, and Z values
+
+    x_values = np.arange(width)
+    y_values = np.arange(height)
+    x_mesh, y_mesh = np.meshgrid(x_values, y_values)
+    z_values_red = red_values
+    z_values_green = green_values
+    z_values_blue = blue_values
+    # Create a 3D scatter plot
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    # Plot X, Y, and Z values
+
+    ax.scatter(x_mesh.flatten(), y_mesh.flatten(), z_values_red, c=z_values_red, cmap='Reds', marker='o')
+    ax.scatter(x_mesh.flatten(), y_mesh.flatten(), z_values_green, c=z_values_green, cmap='Greens', marker='o')
+    ax.scatter(x_mesh.flatten(), y_mesh.flatten(), z_values_blue, c=z_values_blue, cmap='Blues', marker='o')
+    # Set labels
+    ax.set_xlabel('X (Pixel Location)')
+    ax.set_ylabel('Y (Pixel Location)')
+    ax.set_zlabel('Z (Red Green and Blue)')
+
+    # Show the plot
+    plt.show()
+
 def red_line_2d(image):
     """Plots a 2D graph of the red values in the image
 
