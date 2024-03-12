@@ -128,6 +128,10 @@ import ImgVis
 ImgVis.combined_line_2d("example.png")
 ```
 
+## Demo script
+
+The demo script is located in the [demo.py](demo.py) file. This script will run all the functions with the example image.
+
 ## Licence
 
 This project is licenced under the GNU General Public License v3.0. See the [LICENCE](LICENCE) file for more information.
