@@ -1,8 +1,8 @@
 # ImgVis
 # Visualize images with graphs
-# Github: https://www.github.com/lewisevans2007/ImgVis
+# Github: https://www.github.com/0x4248/ImgVis
 # Licence: GNU General Public License v3.0
-# By: Lewis Evans
+# By: 0x4248
 #
 # This demo file tests the ImgVis module and shows how to use it
 # This file is not required for the module to work

@@ -1,8 +1,8 @@
 # ImgVis
 # Visualize images with graphs
-# Github: https://www.github.com/lewisevans2007/ImgVis
+# Github: https://www.github.com/0x4248/ImgVis
 # Licence: GNU General Public License v3.0
-# By: Lewis Evans
+# By: 0x4248
 
 """
 # ImgVis
@@ -22,7 +22,7 @@ Each function has the following parameters:
 
 ### Colour 3D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/colour_3d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/colour_3d.png|width=400px)
 
 Visualize the colour of the image in 3D space. The x-axis is the red channel, the y-axis is the green channel and the z-axis is the blue channel.
 
@@ -35,7 +35,7 @@ ImgVis.colour_3d("example.png", compression=10)
 
 ### Brightness 3D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/brightness_3d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/brightness_3d.png|width=400px)
 
 Visualize the brightness of the image in 3D space. The x-axis is the red channel, the y-axis is the green channel and the z-axis is the blue channel.
 
@@ -47,7 +47,7 @@ ImgVis.brightness_3d("example.png", compression=10)
 
 ### Red 3D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/red_3d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/red_3d.png|width=400px)
 
 
 Visualize the red channel of the image in 3D space. The x-axis is the red channel, the y-axis is the green channel and the z-axis is the blue channel.
@@ -60,7 +60,7 @@ ImgVis.red_3d("example.png", compression=10)
 
 ### Green 3D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/green_3d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/green_3d.png|width=400px)
 
 Visualize the green channel of the image in 3D space. The x-axis is the red channel, the y-axis is the green channel and the z-axis is the blue channel.
 
@@ -72,7 +72,7 @@ ImgVis.green_3d("example.png", compression=10)
 
 ### Blue 3D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/blue_3d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/blue_3d.png|width=400px)
 
 Visualize the blue channel of the image in 3D space. The x-axis is the red channel, the y-axis is the green channel and the z-axis is the blue channel.
 
@@ -89,7 +89,7 @@ The 2D functions have the following parameters:
 
 ### Red Line 2D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/red_line_2d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/red_line_2d.png|width=400px)
 
 Visualize the red channel of the image in 2D space. The x-axis is the red channel and the y-axis is the green channel.
 
@@ -101,7 +101,7 @@ ImgVis.red_line_2d("example.png")
 
 ### Green Line 2D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/green_line_2d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/green_line_2d.png|width=400px)
 
 Visualize the green channel of the image in 2D space. The x-axis is the red channel and the y-axis is the green channel.
 
@@ -113,7 +113,7 @@ ImgVis.green_line_2d("example.png")
 
 ### Blue Line 2D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/blue_line_2d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/blue_line_2d.png|width=400px)
 
 Visualize the blue channel of the image in 2D space. The x-axis is the red channel and the y-axis is the green channel.
 
@@ -125,7 +125,7 @@ ImgVis.blue_line_2d("example.png")
 
 ### Combined Line 2D
 
-![Demo](https://raw.githubusercontent.com/lewisevans2007/ImgVis/main/doc/combined_line_2d.png|width=400px)
+![Demo](https://raw.githubusercontent.com/0x4248/ImgVis/main/doc/combined_line_2d.png|width=400px)
 
 Visualize the red, green and blue channel of the image in 2D space. The x-axis is the red channel and the y-axis is the green channel.
 
