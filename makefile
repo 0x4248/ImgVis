@@ -5,7 +5,6 @@
 # By: 0x4248
 
 python = python3
-
 pip = pip3
 
 all: update_pip install_requirements build
@@ -22,5 +21,12 @@ install_requirements:
 
 clean:
 	rm -rf build dist ImgVis.egg-info
+
+help:
+	@echo "all: update_pip install_requirements build"
+	@echo "build: Build the package"
+	@echo "update_pip: Update pip"
+	@echo "install_requirements: Install requirements"
+	@echo "clean: Clean the build files"
 
 .PHONY: all build update_pip install_requirements clean
