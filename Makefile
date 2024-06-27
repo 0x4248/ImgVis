@@ -23,6 +23,8 @@ clean:
 	rm -rf build dist ImgVis.egg-info
 
 help:
+	@echo "Makefile for ImgVis"
+	@echo "Usage: make [target]"
 	@echo "all: update_pip install_requirements build"
 	@echo "build: Build the package"
 	@echo "update_pip: Update pip"
